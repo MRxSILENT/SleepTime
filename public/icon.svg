@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d2fe" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="160" fill="#312e81" opacity="0.4" />
+  <!-- Crescent Moon -->
+  <path d="M296 140 A130 130 0 1 0 380 340 A150 150 0 0 1 296 140 Z" fill="url(#moonGrad)" />
+  <!-- Small Star -->
+  <polygon points="370,160 376,176 392,176 380,186 384,202 370,192 356,202 360,186 348,176 364,176" fill="#fef08a" />
+  <polygon points="190,170 194,180 205,180 197,187 200,198 190,191 180,198 183,187 175,180 186,180" fill="#fef08a" opacity="0.8" />
+  <!-- Phone Lock outline -->
+  <rect x="206" y="270" width="100" height="150" rx="20" fill="#1e293b" stroke="#a5b4fc" stroke-width="8" />
+  <rect x="236" y="282" width="40" height="6" rx="3" fill="#64748b" />
+  <!-- Lock Shackle and body -->
+  <path d="M246 340 V330 A10 10 0 0 1 266 330 V340" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+  <rect x="238" y="340" width="36" height="28" rx="6" fill="#38bdf8" />
+  <circle cx="256" cy="352" r="3" fill="#0f172a" />
+</svg>

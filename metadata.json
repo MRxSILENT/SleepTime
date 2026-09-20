@@ -1,0 +1,6 @@
+{
+  "name": "Android Bedtime Mode",
+  "description": "Offline-only Android bedtime scheduler and phone lock with customizable Wi-Fi, mobile data, and distraction controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
